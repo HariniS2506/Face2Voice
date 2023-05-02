@@ -1,1 +1,1 @@
-This folder containes the codes to the inference pipeline and evaluation metrics
+This folder containes the codes to the evaluation metrics for Face clustering and Voice Generation
