@@ -35,3 +35,5 @@ Steps to run:
 * cd into evaluating_dbscan
 * run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings
 * run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to get evaluation, jobs parameter optional
+
+## TTS Evaluation
