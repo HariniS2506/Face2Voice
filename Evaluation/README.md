@@ -37,3 +37,12 @@ Steps to run:
 * run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to get evaluation, jobs parameter optional
 
 ## TTS Evaluation
+
+* TTS Evaluation can be run using the notebook in the TTS Evaluation folder.
+* The data is at https://drive.google.com/drive/folders/1-5qJ6DViLN_PHl93pZ9mq8J640RYIvfk?usp=sharing
+* Navigate into the Cluster_voices folder
+* Run the cells to get the average pitch of all the clusters.
+* The average pitch gets stored in a csv file.
+* To find the pitch of the generated wav files, run the cells after.
+* You will have to first upload these wav files in Evaluation/TTS to Colab
+ 
