@@ -22,13 +22,10 @@ Steps to run:
 
 #### DBSCAN
 
-clustering_dbscan contains the code to carry out Agglomerative clustering.
+clustering_dbscan contains the code to carry out DBSCAN clustering.
 
 Steps to run:
 
 * cd into evaluating_dbscan
 * run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings, where --dataset specifies path to dataset
-* run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to get evaluation, jobs parameter optional
-
-## TTS Evaluation
-
+* run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to carry out clustering, jobs parameter optional
