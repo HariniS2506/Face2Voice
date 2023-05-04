@@ -13,7 +13,7 @@ evaluating_kmeans contains the code to evaluate KMeans using the 3 metrics for k
 Steps to run:
 
 * cd into evaluating_kmeans
-* run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings
+* run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings, where --dataset specifies path to dataset
 * run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to get evaluation, jobs parameter optional
 
 #### Agglomerative Clustering
@@ -23,7 +23,7 @@ evaluating_agglomerative contains the code to evaluate Agglomerative Clustering 
 Steps to run:
 
 * cd into evaluating_agglomerative
-* run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings
+* run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings, where --dataset specifies path to dataset
 * run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to get evaluation, jobs parameter optional
 
 #### DBSCAN
@@ -33,7 +33,7 @@ evaluating_dbscan contains the code to evaluate DBSCAN using the 3 metrics for e
 Steps to run:
 
 * cd into evaluating_dbscan
-* run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings
+* run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings, where --dataset specifies path to dataset
 * run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to get evaluation, jobs parameter optional
 
 ## TTS Evaluation
