@@ -18,4 +18,20 @@ Steps to run:
 
 #### Agglomerative Clustering
 
+evaluating_agglomerative contains the code to evaluate Agglomerative Clustering using the 3 metrics for n_clusters (no. of clusters) values ranging from 9 to 99 in intervals of 10.
+
+Steps to run:
+
+* cd into evaluating_agglomerative
+* run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings
+* run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to get evaluation, jobs parameter optional
+
 #### DBSCAN
+
+evaluating_dbscan contains the code to evaluate DBSCAN using the 3 metrics for eps (maximum distance between two samples) values ranging from 0.4 to 0.49 in intervals of 0.1
+
+Steps to run:
+
+* cd into evaluating_dbscan
+* run ````python3 encode_faces.py --dataset dataset --encodings encodings.pickle --detection_method "cnn"```` to get encodings
+* run ````python3 cluster_faces.py --encodings encodings.pickle --jobs -1```` to get evaluation, jobs parameter optional
